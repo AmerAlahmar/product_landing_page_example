@@ -1,5 +1,5 @@
 
-# tribute_page_example
+# product_landing_page_example
 FCC Responsive Web Design Project - Product Landing Page
 
 # Github live page:
