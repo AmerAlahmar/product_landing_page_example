@@ -164,7 +164,44 @@ main {
 
 /******Features******/
 
-#video {
+#features {
     width: 100%;
-    width: 200px;
+    max-width: 800px;
+    margin: 70px 15px 0 15px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
 }
+
+.icon {
+    font-size: 3em;
+    color: darkorange;
+    justify-self: center;
+}
+
+@media only screen and (max-width: 550px) {
+    #features {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .icon-text {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+
+/**********************/
+
+
+/******Video******/
+
+#how-it-works {
+    margin-top: 60px;
+}
+
+#video {}
+
+
+/**********************/
